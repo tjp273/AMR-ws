@@ -17,5 +17,20 @@ You can use this repository to start developing your ROS2 modules. It provides a
 ### Open in VSCode
 
 1. Open this repository in VSCode: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git (or any other way you prefer)
-2. VSCode should prompt you that there is a devcontainer configured and ask if you want to reopen in container.
+2. VSCode should prompt you that there is a devcontainer configured and ask if you want to reopen in container. Re-open in the container
+
+### Access the embedded lite Desktop
+
+1. Click on the VNC extension in VSCode:
+ 
+   <img width="59" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/8f41fd58-c41d-440a-afb9-099504369be4">
+
+2. Add a VNC server, as `localhost:5901` if it's not there yet
+
+   <img width="353" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/a6e83e80-f981-42bb-80bd-21aca6f53bde">
+
+3. Click Connect, and when prompted for a password, enter `vscode` (VNC insists on a password)
+
+   <img width="358" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/89657b1c-bb67-4731-8747-ed5ba9a9ebb2">
+
 
