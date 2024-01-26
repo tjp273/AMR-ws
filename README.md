@@ -21,16 +21,16 @@ You can use this repository to start developing your ROS2 modules. It provides a
 
 ### Access the embedded lite Desktop
 
-1. Click on the VNC extension in VSCode:
- 
-   <img width="59" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/8f41fd58-c41d-440a-afb9-099504369be4">
+1. Click on the "Port" in VSCode, find the "novnc" port, right click on it to open the menu, and then choose either "Open in Browser" to open it outside of VSCode or "Preview in Editor" to have it open within VSCode:
 
-2. Add a VNC server, as `localhost:5901` if it's not there yet
+   <img width="735" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/2b0bdfa9-07ea-4238-a0b9-dd2dc8f4c111">
 
-   <img width="353" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/a6e83e80-f981-42bb-80bd-21aca6f53bde">
+2. (recommended) Set the dekstop scaling by clicking on the settings cog and choose scaling mode "Remote Resizing" if it's not set
 
-3. Click Connect, and when prompted for a password, enter `vscode` (VNC insists on a password)
+   <img width="292" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/2d9bc88e-7319-4723-968a-0aa08db026ef">
 
-   <img width="358" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/89657b1c-bb67-4731-8747-ed5ba9a9ebb2">
+3. click on "Connect" and enter the password `vscode` when prompted:
+
+   <img width="455" alt="image" src="https://github.com/LCAS/ros2-teaching-ws/assets/1153084/ddc224eb-5980-4d9a-994e-b05aa1e9fc1d">
 
 
