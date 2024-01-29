@@ -7,7 +7,26 @@ You can use this repository to start developing your ROS2 modules. It provides a
 
 ## Usage
 
-### Setup your environment
+This is a repository template, ready for you to either *fork* it (being able to pull in changes that happen in this repository later, recommended) or *use this template* to create your own independent repository.
+
+### Option 1: How to *fork* (recommended)
+
+Go to https://github.com/LCAS/ros2-teaching-ws and click on 
+
+![Fork](.assets/fork.png) 
+
+to create a GitHub Fork in your own GitHub account. Then continue to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository on your computer. Learn more about GitHub Forks [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
+
+### Option 2: How to *use as template*
+
+Go to https://github.com/LCAS/ros2-teaching-ws and click on 
+
+![usetemplate](.assets/usetemplate.png)
+
+to create a new repository in your own GitHub account. Then continue to [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository on your computer. *Note: This repository is detached from the original one, so any changes in https://github.com/LCAS/ros2-teaching-ws happening after you created your own repository will have to be manually added.
+
+
+### Setup your working environment
 
 1. Make sure you have VSCode installed: https://code.visualstudio.com/download
 2. Make sure you have the `Docker` and the `Dev Containers` extension in VSCode installed and working: https://code.visualstudio.com/docs/containers/overview and https://code.visualstudio.com/docs/devcontainers/containers
@@ -16,7 +35,9 @@ You can use this repository to start developing your ROS2 modules. It provides a
 
 ### Open in VSCode
 
-1. Open this repository in VSCode: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git (or any other way you prefer)
+1. Open your own repository (*forked* or generated from this template) in VSCode: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git (or any other way you prefer), e.g. click on "Clone Respository" in VSCode:
+    ![Alt text](.assets/clone.png)
+
 2. VSCode should prompt you that there is a devcontainer configured and ask if you want to reopen in container. Re-open in the container
 
 ### Access the embedded lite Desktop
